@@ -1,0 +1,18 @@
+.section-service {
+  border-radius: 10px;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+.section-service > h4 {
+  margin: 5px -10px;
+  border-right: 4px solid #1bd9c7;
+  padding: 2px 10px;
+}
+.col-service {
+  margin: 10px 0;
+}
+
+.custom-btn-service {
+  margin: 5px 4px !important;
+  padding: 0.5rem 0.4rem !important;
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Diodrum";
+  src: local("Diodrum"),
+    url("./assets/fonts/Indian\ Type\ Foundry\ -\ Diodrum\ Arabic\ Medium.otf")
+      format("opentype");
+}
+
+* {
+  font-family: Diodrum !important;
+}

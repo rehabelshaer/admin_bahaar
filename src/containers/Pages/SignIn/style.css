@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap");
+
+:root {
+  --main-color: #6dd5ed;
+  --secondary-color: #2193b0;
+  --gradient: linear-gradient(
+    135deg,
+    var(--main-color),
+    var(--secondary-color)
+  );
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f6f5f7;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  /* margin: 1rem 0; */
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  margin: 20px 0 30px;
+}
+/* 
+.social-container {
+  margin: 20px 0;
+}
+
+.social-container a {
+  border: 1px solid #dddddd;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  height: 40px;
+  width: 40px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid var(--main-color);
+  background: var(--main-color);
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 12px 45px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: transform 80ms ease-out;
+}
+
+button:hover {
+  background: var(--secondary-color);
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+button:focus {
+  outline: none;
+}
+
+form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  padding: 12px 15px;
+  margin: 8px 0;
+  width: 100%;
+  font-family: inherit;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  position: relative;
+  overflow: hidden;
+  height: 480px;
+  width: 400px;
+  max-width: 100%;
+  animation: container 1s ease 0s 1 normal backwards;
+}
+
+.form-container {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  transition: all 0.6s ease-in-out;
+  height: 100%;
+}
+
+.sign-in-container {
+  top: 0;
+  height: 100%;
+  z-index: 2;
+}
+
+
+.sign-up-container {
+  top: 0;
+  height: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+  .container {
+    width: 400px;
+    max-width: 100%;
+    height: 480px;
+    animation: container 1s ease 0s 1 normal backwards;
+  }
+
+  .sign-in-container {
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+ */
+.sign-item {
+  color: #22446e;
+  background: aliceblue;
+  border: none;
+  font-weight: 550;
+  border: 1px solid #c8e2f7;
+  padding: 0px 13px 2px;
+}
+.login-form {
+  direction: ltr;
+}
+
+.sign-item:hover {
+  color: #1a89d3;
+}
+.cgmtdw.ant-btn.ant-btn-primary {
+  background-color: #22446e;
+}
+/* .isoLoginContent {
+  display: flex;
+  justify-content: center;
+} */
+.bpSVTd .isoLoginContentWrapper,
+.hVxjdB .isoLoginContent {
+  border-radius: 0 10px 10px 0;
+}
+.bpSVTd .isoLoginContent .isoSignInForm button,
+.btn-sign {
+  background-color: #22446e;
+}
+.bpSVTd .isoLoginContent .isoSignInForm button:hover,
+.btn-sign:hover {
+  background-color: #e7c795;
+  border: #e7c795;
+}
+h3 {
+  color: #22446e;
+  font-family: inherit;
+}
+.span {
+  color: #638ec3;
+}
+.cgmtdw.ant-btn.ant-btn-primary:hover {
+  background-color: #e7c795 !important;
+  border: #e7c795;
+}
+
+.bpSVTd .isoLoginContent .isoSignInForm button,
+button:focus {
+  outline: none;
+}
